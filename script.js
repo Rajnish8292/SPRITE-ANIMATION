@@ -1,4 +1,22 @@
+/*
+    init_sprite_animation(FRAME_COUNT, image_src) 
+    ------------------------------------------------------------------------------------------------
 
+    This function initiate the animation.
+
+    PARAMETER : 
+    -------------------------------------------------------------------------------------------------
+
+    FRAME_COUNT (integer) : No of frames in a sprite image
+    image_src (string) : address of sprite image
+
+
+    RETURN : 
+    --------------------------------------------------------------------------------------------------
+
+    NULL
+        
+*/
 
 
 function init_sprite_animation(FRAME_COUNT, image_src) {
@@ -63,3 +81,4 @@ function init_sprite_animation(FRAME_COUNT, image_src) {
 
 
 init_sprite_animation(10, 'img2.png')
+
