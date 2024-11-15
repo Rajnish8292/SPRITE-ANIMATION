@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+.block {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sprite-image {
+    height: inherit;
+    width: inherit;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-image: url('img2.png');
+    background-position: 0% 0%;
+}
