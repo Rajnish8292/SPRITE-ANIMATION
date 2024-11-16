@@ -59,7 +59,7 @@ function init_sprite_animation(FRAME_COUNT, image_src) {
             ease: `steps(${FRAME_COUNT-1})`,
             scrollTrigger: {
                 trigger: '.sprite-animation-wrapper',
-                start: 'top 600%',
+                start: 'top 60%',
                 end: 'top 10%',
                 scrub: true
 
