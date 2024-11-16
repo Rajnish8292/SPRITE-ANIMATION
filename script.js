@@ -80,5 +80,5 @@ function init_sprite_animation(FRAME_COUNT, image_src) {
 
 
 
-init_sprite_animation(10, 'img2.png')
+init_sprite_animation(9, 'img4.png')
 
